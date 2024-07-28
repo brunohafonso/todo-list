@@ -1,0 +1,28 @@
+.wrapper {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  margin: auto;
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -1.6rem;
+  max-width: 46rem;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;    
+  }
+
+  .main {
+    padding: 0 1rem;
+  }
+}

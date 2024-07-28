@@ -1,0 +1,26 @@
+.input {
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  color: var(--gray-100);
+  padding: 1rem;
+  line-height: 1.4;
+  height: 3.375rem;
+  width: 100%;
+}
+
+.inputInvalid {
+  background-color: var(--gray-500);
+  border: 1px solid var(--danger);
+  border-radius: 8px;
+  color: var(--gray-100);
+  padding: 1rem;
+  line-height: 1.4;
+  height: 3.375rem;
+  width: 100%;
+}
+
+input:focus {
+  border: 1px solid var(--purple-dark);
+  outline: none;
+}

@@ -1,0 +1,19 @@
+.TodoListEmptyState {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.TodoListEmptyState p {
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.TodoListEmptyState p span {
+  display: block;
+  font-weight: normal;
+  line-height: 1.4;
+}

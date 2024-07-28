@@ -1,0 +1,24 @@
+.button {
+  align-items: center;
+  border: none;
+  color: var(--gray-100);
+  font-weight: bold;
+  font-size: 0.875rem; 
+  cursor: pointer;
+  display: flex;
+  gap: 0.5rem;
+  background: var(--blue-dark);
+  justify-content: center;
+  border-radius: 8px;
+  padding: 0 1rem;
+  line-height: 1.4;
+  height: 3.375rem;
+}
+
+.button:hover {
+  background-color: var(--blue); 
+}
+
+.button svg {
+  flex-shrink: 0;
+}

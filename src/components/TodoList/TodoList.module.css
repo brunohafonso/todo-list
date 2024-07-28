@@ -1,0 +1,15 @@
+.todoList {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-items: center;
+  flex-direction: column;
+  margin-top: 4rem;
+  width: 100%;
+}
+
+.todosWrapper {
+  overflow: auto;
+  max-height: calc(100% - 4rem);
+  width: 100%;
+}
