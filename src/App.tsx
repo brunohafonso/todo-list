@@ -28,18 +28,16 @@ export function App() {
 
   const toggleTodoAsDone = (id: string) => {
     setTodos((currentTodos) => {
-      const todoIndex = currentTodos.findIndex(todo => todo.id === id);
-      if(todoIndex >= 0) {
-        const newArray = [...currentTodos];
-        newArray[todoIndex] = {
-          ...currentTodos[todoIndex],
-          isDone: !currentTodos[todoIndex].isDone,
+      return currentTodos.map(todo => {
+        if(todo.id === id) {
+          return {
+            ...todo,
+            isDone: !todo.isDone
+          }
         }
-
-        return newArray;
-      }
-
-      return currentTodos;
+        
+        return todo;
+      })
     });
   }
 
